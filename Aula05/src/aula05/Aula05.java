@@ -17,7 +17,11 @@ public class Aula05 {
     public static void main(String[] args) {
         Computador comp = new Computador();
         comp.marca = "Samsung";
+        comp.processador = "CORE I5";
+        comp.perifericos = "Teclado, " + "Mouse, " + "Monitor";
+        comp.SO = "Windows 10";
         comp.status();
+        
     }
     
 }

@@ -14,8 +14,12 @@ public class Computador {
     public String processador;
     public String perifericos;
     int memoria;
-    void status() {
+    String SO;
+    public void status() {
         System.out.println("Marca " + this.marca);
+        System.out.println("Processador " + this.processador);
+        System.out.println("Perifericos " + this.perifericos);
+        System.out.println("SO" + this.SO);
     
 }
     
