@@ -19,6 +19,8 @@ public class Aula05 {
         comp.marca = "Samsung";
         comp.processador = "CORE I5";
         comp.perifericos = "Teclado, " + "Mouse, " + "Monitor";
+        comp.ligar();
+        comp.desligado();
         comp.SO = "Windows 10";
         comp.status();
         

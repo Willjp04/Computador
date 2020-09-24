@@ -15,11 +15,27 @@ public class Computador {
     public String perifericos;
     int memoria;
     String SO;
+    boolean ligado;
     public void status() {
         System.out.println("Marca " + this.marca);
         System.out.println("Processador " + this.processador);
         System.out.println("Perifericos " + this.perifericos);
-        System.out.println("SO" + this.SO);
+        System.out.println("SO " + this.SO);
+       
+       }
+    public void ligado(){
+        this.ligado = true;
+       }
+    public void desligado(){
+        this.ligado = false;
+        
+    }
+    public void ligar(){
+        if (this.ligado == true) {
+        System.out.println("O COMPUTADOR ESTÁ LIGADO");
+    } else {
+            System.out.println("O COMPUTADOR ESTÁ DESLIGADO");
+        }
     
 }
     
